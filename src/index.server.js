@@ -4,6 +4,7 @@ const oneRoute=require('./routes/')
 
 app.use('/api/',oneRoute)
 
+console.log('object')
 
 app.listen(process.env.PORT||2022,()=>{
     console.log(`server running pn port number 2022 `)
