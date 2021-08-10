@@ -6,6 +6,10 @@ app.use('/api/',oneRoute)
 
 console.log('object')
 
+
+
+console.log("object2")
+
 app.listen(process.env.PORT||2022,()=>{
     console.log(`server running pn port number 2022 `)
 })
